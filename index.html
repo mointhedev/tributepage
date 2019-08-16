@@ -17,11 +17,19 @@
         #image {
             display: block;
             margin: 0 auto;
+            max-width: 100%;
         }
 
         #title {
            margin: 40px 0px 5px 0px;
            text-align: center;
+        }
+
+        @media (max-width: 900px)
+        {
+            #img {
+                width: 50%;
+            }
         }
 
        </style>
@@ -43,8 +51,12 @@
 
                 -- Indian Prime Minister Manmohan Singh</p>
             
-            <a href="wikipedia.com" target="_blank">Wikipedia Link</a>
+            <a id="tribute-link" href="wikipedia.com" target="_blank">Wikipedia Link</a>
     </div>
     
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+        
+    </script>
 </body>
 </html>
